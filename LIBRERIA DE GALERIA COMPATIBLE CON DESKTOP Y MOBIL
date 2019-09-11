@@ -1,0 +1,22 @@
+LIBRERIA DE GALERIA COMPATIBLE CON DESKTOP Y MOBILE.
+
+	galeria debe permitir diferentes tipos de arrastre. deslizamiento vertical y horizontal, diferentes modos de transicion.
+	debe poder ver miniaturas de forma opcional. (verticales y horizontales)
+	debe permitir zoom sobre la imagen de diferentes formas.
+	debe permitir obtener modal sobre las imagenes de galeria.
+
+
+
+
+ENLACES DE INTERES.
+	https://stackoverflow.com/questions/6819045/onmousedrag-event-js
+		var div = document.getElementById('ex');
+		div.onmousedown = function(){
+		    document.onmousemove = function(e){
+		        div.innerText = '('+e.pageX +', '+e.pageY+')';
+		    }
+		    document.onmouseup = function(e){
+		        div.innerText = 'Click Me!';
+		        document.onmousemove = function(){};
+		    }
+		}
