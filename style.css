@@ -1,0 +1,39 @@
+.slide-bold{
+	width:70%;
+	height: 60vh;
+	display: block;
+	margin: auto;
+}
+.content-image{
+	width:100%;
+	height:100%;
+	display: block;
+	overflow:hidden;
+	background:red;
+	position: relative;
+}
+.gallery-image{
+	position:absolute;
+	width:100%;
+	height: 100%;
+}
+.item-image{
+	width: 100%;
+	display: block;
+}
+#cord{
+	display: block;
+}
+
+.zoomin{
+	display: block;
+	position:absolute;
+	width:100px;
+	height: 100px;
+	background: rgba(255,2,0,0.5);
+	z-index: 10;
+	transform: translate(-50%,-50%);
+}
+.noview{
+	display: none;
+}
